@@ -1,4 +1,4 @@
-import { Helper } from "./helper";
+import { Helper } from "./helper.js";
 
 class GameOverScreen {
     static get #root() { return document.getElementById("playerSetupScreenRoot"); }
