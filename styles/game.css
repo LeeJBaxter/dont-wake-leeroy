@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+}
+
+button:hover {
+    box-shadow: 4px 4px 8px #00000088;
+}
+
+button:active {
+    box-shadow: none;
+}
