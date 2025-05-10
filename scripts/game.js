@@ -1,7 +1,7 @@
-import { TitleScreen } from "./title-screen";
-import { PlayerSetupScreen } from "./player-setup-screen";
-import { PlayerTurnScreen } from "./player-turn-screen";
-import { GameOverScreen } from "./game-over-screen";
+import { TitleScreen } from "./title-screen.js";
+import { PlayerSetupScreen } from "./player-setup-screen.js";
+import { PlayerTurnScreen } from "./player-turn-screen.js";
+import { GameOverScreen } from "./game-over-screen.js";
 
 class Game {
     static async main() {
