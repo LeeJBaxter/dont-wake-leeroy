@@ -1,5 +1,5 @@
 #titleScreenRoot {
     align-items: center;
-    height: 100%;
+    align-self: center;
     justify-items: center;
 }
