@@ -8,7 +8,7 @@ class Helper {
     static async waitForButtonClick(...buttons) {
         return await new Promise((resolve) => {
             for (let button of buttons) {
-                button.click = () => resolve(button);
+                button.onclick = () => resolve(button);
             }
         });
     }
